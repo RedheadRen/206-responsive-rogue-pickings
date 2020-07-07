@@ -66,13 +66,16 @@ header {
 header h1 {
 	border-bottom: 3px solid #77a466;
 	margin: 0;
-	padding: 40px 30px 20px 30px;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
 }
 header h1 span {
 	color: #77a466;
 }
 header nav {
 	padding: 10px 0;
+	width: 100%;
 }
 header nav ul {
 	margin: 0;
