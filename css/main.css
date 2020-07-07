@@ -1,6 +1,7 @@
 html {
 	font-size: 16px;
 }
+
 body {
 	align-items: center;
 	display: flex;
@@ -17,6 +18,7 @@ body {
 	justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
+	width: 90%;
 }
 
 h1,
@@ -47,29 +49,30 @@ h4 {
 p {
 	font-size: .9em;
 	line-height: 21px;
-    padding: 0 30px;
+    padding: 0;
 }
 
 /*The widths are in a percentage!*/
 header {
 	align-items: center;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	width: 100%;
-	flex-flow: row wrap;
 }
 
 header h1 {
+	border-bottom: 3px solid #77a466;
 	margin: 0;
-	padding: 38px 0;
+	padding: 40px 30px 20px 30px;
 }
 header h1 span {
 	color: #77a466;
 }
 header nav {
-	padding: 46px 0;
+	padding: 10px 0;
 }
 header nav ul {
 	margin: 0;
@@ -79,8 +82,10 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .9em;
-	padding: 0 10px;
+	padding: 15px 10px;
 	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -95,7 +100,7 @@ header nav ul li a{
 	justify-content: center;
 	margin: 0 auto;
 	width: 100%;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 	flex-basis: auto;
 }
 
@@ -135,14 +140,9 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: 10px 0;
 }
 
 .menu {
